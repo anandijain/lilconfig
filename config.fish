@@ -2,7 +2,7 @@ setenv EDITOR nvim
 set PATH $PATH ~/.cargo/bin
 set PATH $PATH ~/julia-1.4.2/bin
 
-abbr -a jl /home/sippycups/Downloads/Applications/julia-1.4.0/bin/julia
+abbr -a jl ~/julia-1.4.2/bin/julia
 abbr -a c cargo
 abbr -a e nvim
 abbr -a g git
