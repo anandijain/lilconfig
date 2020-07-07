@@ -2,6 +2,8 @@ let mapleader = "\<Space>"
 call plug#begin()
 
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'rust-lang/rust.vim'
@@ -25,6 +27,8 @@ cnoremap <C-c> <Esc>
 onoremap <C-c> <Esc>
 lnoremap <C-c> <Esc>
 tnoremap <C-c> <Esc>
+
+nnoremap <C-p> :GFiles<CR>
 
 map H ^
 map L $
